@@ -27,3 +27,4 @@ def todo_create(request):
     }
 
     return render(request, "todo/todo_add.html", context)
+
